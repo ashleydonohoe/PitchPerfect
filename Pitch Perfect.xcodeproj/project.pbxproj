@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E03BC7AC1B785A7C00EE12E0 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E03BC7AB1B785A7C00EE12E0 /* movie_quote.mp3 */; };
 		E06F4E821B75D8FE00E286DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F4E811B75D8FE00E286DA /* AppDelegate.swift */; };
 		E06F4E841B75D8FE00E286DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F4E831B75D8FE00E286DA /* ViewController.swift */; };
 		E06F4E871B75D8FE00E286DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F4E851B75D8FE00E286DA /* Main.storyboard */; };
 		E06F4E891B75D8FE00E286DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06F4E881B75D8FE00E286DA /* Images.xcassets */; };
 		E06F4E8C1B75D8FE00E286DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06F4E8A1B75D8FE00E286DA /* LaunchScreen.xib */; };
 		E06F4E981B75D8FE00E286DA /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F4E971B75D8FE00E286DA /* Pitch_PerfectTests.swift */; };
+		E07AF20B1B7852580039F008 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07AF20A1B7852580039F008 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E03BC7AB1B785A7C00EE12E0 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		E06F4E7C1B75D8FE00E286DA /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06F4E801B75D8FE00E286DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E06F4E811B75D8FE00E286DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		E06F4E911B75D8FE00E286DA /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06F4E961B75D8FE00E286DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E06F4E971B75D8FE00E286DA /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
+		E07AF20A1B7852580039F008 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +84,10 @@
 				E06F4E811B75D8FE00E286DA /* AppDelegate.swift */,
 				E06F4E831B75D8FE00E286DA /* ViewController.swift */,
 				E06F4E851B75D8FE00E286DA /* Main.storyboard */,
+				E07AF20A1B7852580039F008 /* PlaySoundsViewController.swift */,
 				E06F4E881B75D8FE00E286DA /* Images.xcassets */,
 				E06F4E8A1B75D8FE00E286DA /* LaunchScreen.xib */,
+				E03BC7AB1B785A7C00EE12E0 /* movie_quote.mp3 */,
 				E06F4E7F1B75D8FE00E286DA /* Supporting Files */,
 			);
 			path = "Pitch Perfect";
@@ -157,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ashley Donohoe";
 				TargetAttributes = {
 					E06F4E7B1B75D8FE00E286DA = {
@@ -196,6 +202,7 @@
 			files = (
 				E06F4E871B75D8FE00E286DA /* Main.storyboard in Resources */,
 				E06F4E8C1B75D8FE00E286DA /* LaunchScreen.xib in Resources */,
+				E03BC7AC1B785A7C00EE12E0 /* movie_quote.mp3 in Resources */,
 				E06F4E891B75D8FE00E286DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06F4E841B75D8FE00E286DA /* ViewController.swift in Sources */,
+				E07AF20B1B7852580039F008 /* PlaySoundsViewController.swift in Sources */,
 				E06F4E821B75D8FE00E286DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +286,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -346,6 +355,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashleyddesigns.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -359,6 +369,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashleyddesigns.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -378,6 +389,7 @@
 				);
 				INFOPLIST_FILE = "Pitch PerfectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashleyddesigns.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitch Perfect.app/Pitch Perfect";
 			};
@@ -393,6 +405,7 @@
 				);
 				INFOPLIST_FILE = "Pitch PerfectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashleyddesigns.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitch Perfect.app/Pitch Perfect";
 			};
