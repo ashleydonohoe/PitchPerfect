@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E010C09C1B7AF9D600FC110C /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010C09B1B7AF9D600FC110C /* RecordedAudio.swift */; };
 		E03BC7AC1B785A7C00EE12E0 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E03BC7AB1B785A7C00EE12E0 /* movie_quote.mp3 */; };
 		E06F4E821B75D8FE00E286DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F4E811B75D8FE00E286DA /* AppDelegate.swift */; };
-		E06F4E841B75D8FE00E286DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F4E831B75D8FE00E286DA /* ViewController.swift */; };
+		E06F4E841B75D8FE00E286DA /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F4E831B75D8FE00E286DA /* RecordSoundsViewController.swift */; };
 		E06F4E871B75D8FE00E286DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F4E851B75D8FE00E286DA /* Main.storyboard */; };
 		E06F4E891B75D8FE00E286DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06F4E881B75D8FE00E286DA /* Images.xcassets */; };
 		E06F4E8C1B75D8FE00E286DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06F4E8A1B75D8FE00E286DA /* LaunchScreen.xib */; };
@@ -28,11 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E010C09B1B7AF9D600FC110C /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		E03BC7AB1B785A7C00EE12E0 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		E06F4E7C1B75D8FE00E286DA /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06F4E801B75D8FE00E286DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E06F4E811B75D8FE00E286DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E06F4E831B75D8FE00E286DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E06F4E831B75D8FE00E286DA /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		E06F4E861B75D8FE00E286DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E06F4E881B75D8FE00E286DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E06F4E8B1B75D8FE00E286DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -82,8 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				E06F4E811B75D8FE00E286DA /* AppDelegate.swift */,
-				E06F4E831B75D8FE00E286DA /* ViewController.swift */,
+				E06F4E831B75D8FE00E286DA /* RecordSoundsViewController.swift */,
 				E06F4E851B75D8FE00E286DA /* Main.storyboard */,
+				E010C09B1B7AF9D600FC110C /* RecordedAudio.swift */,
 				E07AF20A1B7852580039F008 /* PlaySoundsViewController.swift */,
 				E06F4E881B75D8FE00E286DA /* Images.xcassets */,
 				E06F4E8A1B75D8FE00E286DA /* LaunchScreen.xib */,
@@ -221,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E06F4E841B75D8FE00E286DA /* ViewController.swift in Sources */,
+				E010C09C1B7AF9D600FC110C /* RecordedAudio.swift in Sources */,
+				E06F4E841B75D8FE00E286DA /* RecordSoundsViewController.swift in Sources */,
 				E07AF20B1B7852580039F008 /* PlaySoundsViewController.swift in Sources */,
 				E06F4E821B75D8FE00E286DA /* AppDelegate.swift in Sources */,
 			);
